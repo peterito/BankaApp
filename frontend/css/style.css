@@ -11,6 +11,7 @@ body{
 	background-position: center;
     height: 100vh;
     background-size: cover;
+    background-position: center;
 }
 
 .text-box{
@@ -26,7 +27,7 @@ body{
     top: 50%;
     left: 50%;
     margin-right: -50%;
-   transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 button{
@@ -45,81 +46,4 @@ button:active,
 input[type=submit]:hover,
 input[type=submit]:active{
 	background-color: #11040a;
-}
-
-/**FORM STYLE**/
-#signup{
-    background-image: linear-gradient(rgba(75, 3, 45, 0.726), rgba(39, 6, 31, 0.835)),url(img/skyline.jpg);
-    display: table;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    background-size: cover;
-	background-position: center;
-	height: 100vh;
-    background-attachment: fixed;
-}
-#signup .signup-box{
-    width: 325px;
-    height: 350px;
-    background: rgba(59, 61, 61, 0.192);
-    color: rgba(255, 255, 255, 0);
-    margin-top: 285px;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgb(250, 249, 247);
-    margin-left: 50%;
-    padding: 20px;
-}
-
-#signup .signup-box input{
-    width: 100%;
-    margin-bottom: 20px;
-}
-#signup .signup-box input[type="text"], input[type="password"]{
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 20px;
-    color: rgb(252, 252, 252);
-    font-size: 15px;
-}
-::placeholder{
-    color: rgba(255, 255, 255, 0.541);
-}
-#signup .signup-box input[type="submit"]{
-    border: none;
-    outline: none;
-    background: #0c97e7b2;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-    border-radius: 20px;
-    margin-top: 5px;
-    padding: 10px;
-}
-#signup .signup-box input[type="submit"]:hover{
-    cursor: pointer;
-    background: rgba(19, 121, 124, 0.959);
-    color: #fff
-}
-#signup .already-registered{
-    text-decoration: none;
-    margin-top: 10px;
-    color: aliceblue;
-    font-size: 18px;
-}
-#signup p{
-    padding-top: 10px;
-    text-align: center;
-    color: aliceblue;
-    font-size: 40px;
-    text-shadow: rgba(212, 4, 4, 0.972)
-
-}
-#signup .already-registered:hover{
-    cursor: pointer;
-    color: rgb(10, 102, 250);
 }
