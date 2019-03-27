@@ -28,13 +28,12 @@ body{
 	list-style: none;
     margin-top: 15px;
     padding-right: 50px;
-    
     font-size: 20px;
 }
 /******sticky navigation bar*/
 
 .sticky-bar{
-        z-index: 600px;
+        z-index: 500px;
         position: fixed;
         top: 0;
         width: 100%;
@@ -46,7 +45,6 @@ body{
         padding: 8px 0;
         color: rgb(54, 13, 13);
     }
-
 .home{
     background-image: linear-gradient(rgba(75, 3, 45, 0.726), rgba(39, 6, 31, 0.835)),url(img/save-money.jpg);
 	background-position: center;
