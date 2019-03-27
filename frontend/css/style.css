@@ -47,6 +47,9 @@ input[type=submit]:hover,
 input[type=submit]:active{
 	background-color: #11040a;
 }
+
+/**LOGIN DESIGN**/
+
 #login{
     background-image: linear-gradient(rgba(90, 5, 62, 0.753), rgba(0, 0, 0, 0.842)), url(img/skyline.jpg);
     display: table;
@@ -59,9 +62,23 @@ input[type=submit]:active{
 	height: 100vh;
     background-attachment: fixed;
 }
+#login .login-box{
+    width: 325px;
+    height: 350px;
+    background: rgba(59, 61, 61, 0.192);
+    color: rgba(255, 255, 255, 0);
+    margin-top: 285px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(250, 249, 247);
+    margin-left: 50%;
+    padding: 20px;
+}
 #login p{
     text-align: center;
     font-size: 40px;
+    color: aliceblue;
 }
 #login .login-box input{
     width: 100%;
@@ -74,7 +91,7 @@ input[type=submit]:active{
     outline: none;
     height: 30px;
     color: rgb(252, 252, 252);
-    font-size: 20px;
+    font-size: 18px;
 }
 #login .login-box input[type="submit"]{
     border: none;
@@ -93,11 +110,21 @@ input[type=submit]:active{
 }
 #login .login-box a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(252, 248, 248);
     margin-left: 5px;
 }
+#login .login-box #noAccount{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(12, 143, 160);
+    padding: 5px;
+}
+#login .login-box #noAccount a:hover{
+    color: rgb(2, 31, 77);
+}
+
 #login .login-box a:hover{
     color: rgb(245, 10, 10);
-    font-size: 15px;
 }
+
