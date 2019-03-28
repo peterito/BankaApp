@@ -101,7 +101,7 @@ input[type=submit]:active{
     color: rgb(255, 255, 255);
     font-size: 18px;
     border-radius: 20px;
-    margin-top: 40px;
+    margin-top: 15px;
     padding: 10px;
 }
 #login .login-box input[type="submit"]:hover{
@@ -116,10 +116,10 @@ input[type=submit]:active{
     margin-left: 5px;
 }
 #login .login-box #noAccount{
+    padding: 15px;
     text-decoration: none;
     font-size: 15px;
     color: rgb(12, 143, 160);
-    padding: 5px;
 }
 #login .login-box #noAccount a:hover{
     color: rgb(2, 31, 77);
