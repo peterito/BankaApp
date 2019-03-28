@@ -116,7 +116,7 @@ input[type=submit]:active{
     margin-left: 5px;
 }
 #login .login-box #noAccount{
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
     font-size: 15px;
     color: rgb(12, 143, 160);
