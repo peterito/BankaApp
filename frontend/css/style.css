@@ -67,7 +67,7 @@ input[type=submit]:active{
     height: 350px;
     background: rgba(59, 61, 61, 0.192);
     color: rgba(255, 255, 255, 0);
-    margin-top: 285px;
+    margin-top: 15%;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     border-radius: 5px;
@@ -114,7 +114,7 @@ input[type=submit]:active{
     font-size: 18px;
 }
 #signup p{
-    padding-top: 10px;
+    padding-top: 100px;
     text-align: center;
     color: aliceblue;
     font-size: 40px;
