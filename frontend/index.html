@@ -9,14 +9,38 @@
     <title>BankaApp</title>
 </head>
 <body>
+    <div class="container nav sticky-bar">
+        <nav class="main-nav">
+                <ul>
+                    <li class="current"><a href="index.html">HOME</a></li>
+                    <li><a href="#admin">ADMIN</a></li>
+                    <li><a href="#staff">STAFF</a></li>
+                    <li><a href="#customer">CUSTOMER</a></li>
+                </ul>
+            </nav>
+    </div>
     <div class="home">
         <div class="text-box">
             <p>welcome to our web banking Home, <br> we makes money transaction seamlessly easy</p>
-            <a class="btn btn-sign-up" href="#"><button>sign up</button></a>
+            <a class="btn btn-sign-up" href="#signup"><button>sign up</button></a>
             <a class=" btn btn-login" href="#login"><button>login</button></a>
         </div>
     </div>
-<section id="login">
+    <section id="signup">
+        <p>Please fill in this form to create an account.</p>
+            <div class="signup-box">
+                    <form action="">
+                        <input type="text" name="user" placeholder="Enter First Name">
+                        <input type="text" name="user" placeholder="Enter Last Name">
+                        <input type="text" name="user" placeholder="Enter Email Address">
+                        <input type="password" name="Password" placeholder="Enter Password">
+                        <input type="password" name="Password" placeholder="Re-enter Password">
+                        <input type="submit" name="Submit" value="Register">
+                        <a class="already-registered" href="#login">Already Registered login</a>
+                    </form> 
+            </div>
+    </section>
+    <section id="login">
         <p>Please fill in this form to login into your account.</p>
         <div class="login-box">
                 <form action="">
@@ -29,5 +53,20 @@
         </div>
 </section>
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
