@@ -6,6 +6,94 @@ body{
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
 }
+.main-nav li{
+	display: inline-block;
+	margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+	padding: 8px 0;
+	color: rgba(255, 255, 255, 0.979);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+	border-bottom: 2px dotted rgb(236, 235, 229);
+}
+.main-nav{
+	float: right;
+	list-style: none;
+    margin-top: 15px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+/******sticky navigation bar*/
+
+.sticky-bar{
+        z-index: 500px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: hsl(0, 100%, 4%);
+        box-shadow: 0 2px 2px #ffffff;
+    }
+    .sticky.main-nav li a:link,
+    .sticky.main-nav li a:visited{
+        padding: 8px 0;
+        color: rgb(54, 13, 13);
+    }
+.home{
+    background-image: linear-gradient(rgba(75, 3, 45, 0.726), rgba(39, 6, 31, 0.835)),url(img/save-money.jpg);
+	background-position: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-box{
+    text-align: center;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 40px;
+    color: aliceblue;
+    margin: 0;
+    line-height: 70px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    display:inline-block;
+    color: rgb(219, 6, 138);
+	padding: 10px 40px;
+    font-weight: 400;
+    font-size: 25px;
+	text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+	transition: background-color 0.2s, border 0.2s, color 0.2s; /***for border and color to change when hover it in 0.2second**/
+}
+button:hover, /***hover shows what will happen when will put the mouse on the button***/
+button:active,
+input[type=submit]:hover,
+input[type=submit]:active{
+	background-color: #11040a;
+}
+body{
+	background-color: #fff;
+	font-family: 'lato', 'Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
 .home{
     background-image: linear-gradient(rgba(75, 3, 45, 0.726), rgba(39, 6, 31, 0.835)),url(img/save-money.jpg);
 	background-position: center;
