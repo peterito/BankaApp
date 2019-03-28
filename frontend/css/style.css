@@ -295,3 +295,160 @@ input[type=submit]:active{
     color: rgb(245, 10, 10);
 }
 
+/**ADMIN SIGN-UP PAGE**/
+
+#admin{
+    background-image: linear-gradient(rgba(75, 3, 45, 0.726), rgba(39, 6, 31, 0.835)),url(img/admin.jpg);
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-size: cover;
+	background-position: center;
+	height: 100vh;
+    background-attachment: fixed;
+}
+#admin .signup-box{
+    width: 325px;
+    height: 350px;
+    background: rgba(59, 61, 61, 0.192);
+    color: rgba(255, 255, 255, 0);
+    margin-top: 15%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(250, 249, 247);
+    margin-left: 50%;
+    padding: 20px;
+}
+
+#admin .signup-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#admin .signup-box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: rgb(252, 252, 252);
+    font-size: 15px;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.541);
+}
+#admin .signup-box input[type="submit"]{
+    border: none;
+    outline: none;
+    background: #0c97e7b2;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 10px;
+}
+#admin .signup-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgba(19, 121, 124, 0.959);
+    color: #fff
+}
+#admin .already-registered{
+    text-decoration: none;
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 18px;
+}
+#admin-signup p{
+    padding-top: 100px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    text-shadow: rgba(212, 4, 4, 0.972)
+
+}
+#admin-signup .already-registered:hover{
+    cursor: pointer;
+    color: rgb(10, 102, 250);
+}
+
+#admin-login{
+    background-image: linear-gradient(rgba(90, 5, 62, 0.753), rgba(0, 0, 0, 0.842)), url(img/admin.jpg);
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-size: cover;
+	background-position: center;
+	height: 100vh;
+    background-attachment: fixed;
+}
+#admin-login .login-box{
+    width: 325px;
+    height: 350px;
+    background: rgba(59, 61, 61, 0.192);
+    color: rgba(255, 255, 255, 0);
+    margin-top: 15%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(250, 249, 247);
+    margin-left: 50%;
+    padding: 20px;
+}
+#admin-login p{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+#admin-login .login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#admin-login .login-box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: rgb(252, 252, 252);
+    font-size: 18px;
+}
+#admin-login .login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    background: #0c97e7b2;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px;
+}
+#admin-login .login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgba(19, 121, 124, 0.959);
+    color: #fff
+}
+#admin-login .login-box a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(252, 248, 248);
+    margin-left: 5px;
+}
+#admin-login .login-box #noAccount{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(12, 143, 160);
+}
+#admin-login .login-box #noAccount a:hover{
+    color: rgb(2, 31, 77);
+}
+
+#admin-login .login-box a:hover{
+    color: rgb(245, 10, 10);
+}
+
