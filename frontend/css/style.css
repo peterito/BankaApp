@@ -297,7 +297,7 @@ input[type=submit]:active{
 
 /**ADMIN SIGN-UP PAGE**/
 
-#admin{
+#admin-signup{
     background-image: linear-gradient(rgba(75, 3, 45, 0.726), rgba(39, 6, 31, 0.835)),url(img/admin.jpg);
     display: table;
     height: 100%;
@@ -309,7 +309,7 @@ input[type=submit]:active{
 	height: 100vh;
     background-attachment: fixed;
 }
-#admin .signup-box{
+#admin-signup .signup-box{
     width: 325px;
     height: 350px;
     background: rgba(59, 61, 61, 0.192);
@@ -323,11 +323,11 @@ input[type=submit]:active{
     padding: 20px;
 }
 
-#admin .signup-box input{
+#admin-signup .signup-box input{
     width: 100%;
     margin-bottom: 20px;
 }
-#admin .signup-box input[type="text"], input[type="password"]{
+#admin-signup .signup-box input[type="text"], input[type="password"]{
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -339,7 +339,7 @@ input[type=submit]:active{
 ::placeholder{
     color: rgba(255, 255, 255, 0.541);
 }
-#admin .signup-box input[type="submit"]{
+#admin-signup .signup-box input[type="submit"]{
     border: none;
     outline: none;
     background: #0c97e7b2;
@@ -349,12 +349,12 @@ input[type=submit]:active{
     margin-top: 5px;
     padding: 10px;
 }
-#admin .signup-box input[type="submit"]:hover{
+#admin-signup .signup-box input[type="submit"]:hover{
     cursor: pointer;
     background: rgba(19, 121, 124, 0.959);
     color: #fff
 }
-#admin .already-registered{
+#admin-signup .already-registered{
     text-decoration: none;
     margin-top: 10px;
     color: aliceblue;
@@ -372,6 +372,7 @@ input[type=submit]:active{
     cursor: pointer;
     color: rgb(10, 102, 250);
 }
+/**ADMIN LOGIN**/
 
 #admin-login{
     background-image: linear-gradient(rgba(90, 5, 62, 0.753), rgba(0, 0, 0, 0.842)), url(img/admin.jpg);
